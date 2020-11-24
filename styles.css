@@ -1,0 +1,218 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: "myfont";
+    src: url("HackneyPersonalUseOnly.ttf") format("opentype");
+}
+section {
+    padding-top: 4rem;
+}
+a, a:link, a:visited, a:hover, a:active  {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.top-main {
+    background-image: url(imgs/top_1.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 300px 0;
+}
+.top-main h1 {
+    text-align: center;
+    background:rgba(0,0,0,0);
+    font-family: myfont;
+    font-size: 4rem;
+    color: whitesmoke;
+}
+.top-main h1::after{
+    content: "";
+    display: block;
+    width: 40%;
+    height: 8px;
+    background-color: #59b9c6;
+    margin: 10px auto 0;
+}
+.top-right-1 {
+    background-image: url(imgs/top_6.jpg);
+    background-size: cover;
+    width: 100%;
+    padding: 180px 0;
+}
+.top-right-2 {
+    background-image: url(imgs/top_4.jpg);
+    background-size: cover;
+    width: 100%;
+    padding:180px 0;
+}
+.top-right {
+    padding-left: 0;
+    padding-right: 0;
+}
+.top .col-md-4 {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.navbar {
+    background: rgba(248, 249, 250, 0.8);
+}
+.navbar h3 {
+    font-family: myfont;
+    font-size: 1.5rem;
+}
+
+#about {
+    padding-bottom: 50px;
+    background-color: black;
+    color: whitesmoke;
+}
+.btn-twitter:hover {
+    opacity: 0.6;
+}
+.fab {
+    color: whitesmoke;
+}
+.border {
+    width: 70%;
+}
+.about-text h4 {
+    padding-top: 1.2rem;
+}
+.about-text p {
+    margin: 1rem 0;
+}
+.about-icon {
+    display: grid;
+    place-items: center;
+}
+.about-icon  img {
+    width: 100%;
+    box-shadow: 4px 4px 8px #f5f5f5;
+}
+.list_tool {
+    list-style: none;
+}
+
+#service {
+    padding: 30px 0;
+    background-image: url(imgs/macbook.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    color: black;
+}
+.service-description {
+    background-color: rgba(0,0,0,0.6);
+    padding-top: 15px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    color: whitesmoke;
+}
+.txt-s {
+    font-size: 0.8rem;
+}
+.ttx {
+    padding: 20px 0;
+    font-family: myfont;
+    font-size: 3rem;
+}
+.ttx::after{
+    content: "";
+    display: block;
+    width: 90px;
+    height: 8px;
+    background-color: #59b9c6;
+    margin: 10px auto 0;
+}
+.dtx {
+    font-size: 1.5rem;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+#skills {
+    padding-bottom: 150px;
+    background-color: black;
+    color: whitesmoke;
+}
+.items-inner {
+    width: 90%;
+    border: solid .3rem whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 0 16px #59b9c6;
+    margin-left: auto;
+    margin-right: auto;
+}
+.items p {
+    font-size: 1.4rem;
+    text-align: center;
+}
+.item {
+    font-size: 4rem;
+    text-align: center;
+}
+
+#works {
+    padding-bottom: 30px;
+}
+.carousel {
+    padding-top: 2rem;
+}
+.carousel-caption {
+    background: rgba(0,0,0,0.2);
+}
+
+.contact {
+    margin-top: 30px;
+    background-color: black;
+    color: whitesmoke;
+}
+.contact  form{
+    width: 80%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.btn {
+    width: 30%;
+    margin-top: 20px;
+}
+
+footer {
+    border-top: solid 2px whitesmoke;
+    padding: 15px 0;
+    background-color:#f8f9fa;
+}
+/* フェードイン */
+[data-fadeIn] {
+    opacity: 0;
+    transition: all 1.8s;
+}
+[data-fadeIn].is-over {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* レスポンシブ スマホ*/
+@media screen and (max-width: 768px){
+    .top-right-1, .top-right-2 {
+        display: none;
+    }
+    .items-inner {
+        margin-top: 20px;
+        box-shadow: none;
+    }
+    .items-inner .fab {
+        box-shadow: 0 0 16px #59b9c6;
+    }
+    .dtx {
+        font-size: 1.2rem;
+    }
+    .btn {
+        width: 40%;
+    }
+    .about-icon {
+        margin-top: 20px;
+    }
+}

@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyPortforio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+</head>
+<body>
+    <!-- TOPイメージ -->
+    <div class="container-fluid">
+        <div class="row top">
+            <div class="col-md-8 top-main">
+                <h1>TAIKI's Portforio Site</h1>
+            </div>
+            <div class="col-md-4 d-flex flex-column top-right">
+                <div class="top-right-1">
+                </div>
+                <div class="top-right-2"> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ナビゲーションバー -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <a class="navbar-brand" href="#"><h3>TAIKI's Portforio Site</h3></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#service">Service</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#works">Works</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="ttx">About</h2>
+            </div>
+            <div class="row" data-fadeIn>
+                <div class="col-md-8 about-text">
+                    <h3>TAIKI HAYASHI　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a></h3><hr class="border">
+                    <p>WebCreator / WebDesign
+                        北海道函館市出身<br>
+                        東京都在住<br>
+                        31歳<br>
+                        会社員として働きながらWeb制作の活動をしています<br>
+                        クライアントの目的を達成する為のお手伝いをさせて頂きます
+                        </p>
+                    <h4>使用ツール  -Development Environment</h4><hr class="border">
+                    <ul class="list_tool">
+                        <li>Adobe XD</li>
+                        <li>AWS Cloud9</li>
+                        <li>Visual Studio Code</li>
+                    </ul>
+                    <h4>連絡手段  -Contact Toul</h4><hr class="border">
+                    <ul class="list_tool">
+                        <li>E-mail、LIME</li>
+                        <li>Chatwork／Slack／Zoom etc･･･</li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-center about-icon">
+                    <img src="imgs/about_icon.jpg" alt="about-img">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="service" class="service-list">
+        <div class="col-12 text-center">
+            <h2  class="ttx">Service</h2>
+            <p class="dtx" data-fadeIn>Make Your HomePage<br>あなたのホームページを作ります</p>
+        </div>
+        <div class="container" data-fadeIn>
+            <div class="row">
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 service-description">
+                    <h3>Web制作</h3>
+                    <hr color="black">
+                    <p class="txt-subtitle">ホームページ(HP)､ランディングページ(LP)制作</p>
+                    <p>
+                        ･商品説明、採用などの複数ページで構成されるHPの作成<br>
+                        ･ネット広告などに掲載する１ページで構成されるLPの作成<br>
+                        ･スマホ対応(レスポンシブ)したWebページの作成
+                    </p>
+                </div>
+                <div class="col-md-6 service-description">
+                    <h3>コーディング作業</h3>
+                    <hr color="black">
+                    <p class="txt-subtitle">デザインデータを元にしたコーディング作業</p>
+                    <p>
+                       ･ Adobe XD等のデザインデータを元にコーディング作業を行います<br>
+                       ･規約のご指定を頂ければご指定の規約でコーディング作業いたします
+                    </p>
+                </div>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6">
+                </div>
+                <div class="col-md-6 service-description">
+                    <h3>SEO</h3>
+                    <hr color="black">
+                    <p>
+                        ･Google検索で上位にランクされやすいようにWebページを作成します<br>
+                        ･Google検索エンジンに最適に認識されるようSEO内部対策を施します
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container skills">
+            <div class="col-12 text-center">
+                <h2 class="ttx">Skills</h2>
+                <p class="dtx" data-fadeIn>
+                    Built With Lastest<br>
+                    最新Versionで構築可能です
+                </p>
+            </div>
+            <div class="row text-centerl" data-fadeIn>
+                <div class="col-md-3 items">
+                    <div class="items-inner">
+                        <div class="item"><i class="fab fa-html5"></i></div>
+                        <p>HTML5</p>
+                    </div>
+                </div>
+                <div class="col-md-3 items">
+                    <div class="items-inner">
+                        <div class="item"><i class="fab fa-css3-alt"></i></div>
+                        <p>CSS3</p>
+                    </div>
+                </div>
+                <div class="col-md-3 items">
+                    <div class="items-inner">
+                        <div class="item"><i class="fab fa-bootstrap"></i></div>
+                        <p>Bootstrap4</p>
+                    </div>
+                </div>
+                <div class="col-md-3 items">
+                    <div class="items-inner">
+                        <div class="item"><i class="fab fa-js"></i></div>
+                        <p>JavaScript(jQuery)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="works">
+        <div class="container">
+            <div class="col-12 text-center">
+                <h2 class="ttx">Works</h2>
+                <p class="dtx" data-fadeIn>制作実績を紹介します</p>
+            </div>
+            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-fadeIn>
+                <ol class="carousel-indicators">
+                  <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+                  <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+                </ol>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="imgs/nuno_bootstrap.png" class="d-block w-100" alt="スライド1">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="http://woopest.html.xdomain.jp/" target="blanc">NUNO Bootstrap5 theme</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/bootstrap_layout.png" class="d-block w-100" alt="スライド2">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="https://techmeets.jp/student/378_tsuiki/daytra_tutorial01/index.html" target="blank">Bootstrap Compleate WebSite Layout</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/isara.png" class="d-block w-100" alt="スライド3">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5><a href="https://isara.life/">ISARA</a></h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/yashiki_js.png" class="d-block w-100" alt="スライド4">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Ninja Code JS屋敷<br>模擬ECサイト</h5>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="imgs/skillhacks_corporatesite.png" class="d-block w-100" alt="スライド5">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Corporate Site<br>架空企業サイト</h5>
+                    </div>
+                  </div>
+                </div>
+                <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <div class="container">
+            <div  class="col-12 text-center">
+                <h2 class="ttx">Contact</h2>
+                <p class="dtx" data-fadeIn>
+                    下記のフォームに問い合わせ内容をご入力頂くほか<br>TwitterのDMでも承ります　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a>
+                </p>
+            </div>
+            <form data-fadeIn>
+                <div class="form-group">
+                    <label for="exampleFormControlInput1">Email Address</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@___.com">
+                </div>
+                <div class="form-group">
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                          <label for="validationDefault01">First name</label>
+                          <input type="text" class="form-control" id="validationDefault01"  required>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                          <label for="validationDefault02">Last name</label>
+                          <input type="text" class="form-control" id="validationDefault02"  required>
+                        </div>
+                    </div>
+                <div class="form-group">
+                    <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                </div>
+            </form>
+            <div class="col-12 text-center">
+                <button type="button" class="btn btn-outline-dark bg-light">送　信</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p class="text-center">&copy; 2020 <span>TAIKI's Portforio Site</span></p>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</body>
+</html>
