@@ -62,6 +62,11 @@ a, a:link, a:visited, a:hover, a:active  {
 .navbar h3 {
     font-family: myfont;
     font-size: 1.5rem;
+    color: black;
+}
+.thanks {
+    margin: 20px;
+    justify-content: center;
 }
 
 #about {
@@ -164,6 +169,7 @@ a, a:link, a:visited, a:hover, a:active  {
 }
 
 .contact {
+    padding-bottom: 30px;
     margin-top: 30px;
     background-color: black;
     color: whitesmoke;

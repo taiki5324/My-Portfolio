@@ -237,32 +237,29 @@
                     下記のフォームに問い合わせ内容をご入力頂くほか<br>TwitterのDMでも承ります　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a>
                 </p>
             </div>
-            <form data-fadeIn>
+            <form data-fadeIn action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeIQE1ridFWdxQUJOOTJc1z2DcyFfyIbg1APRbZpayPwRNdJA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
                 <div class="form-group">
-                    <label for="exampleFormControlInput1">Email Address</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="example@___.com">
+                    <label for="exampleFormControlInput1">E-Mail</label>
+                    <input type="email" name="entry.382355300" class="form-control" id="exampleFormControlInput1" placeholder="example@___.com">
                 </div>
-                <div class="form-group">
-                    <div class="form-row">
-                        <div class="col-md-6 mb-3">
-                          <label for="validationDefault01">First name</label>
-                          <input type="text" class="form-control" id="validationDefault01"  required>
-                        </div>
-                        <div class="col-md-6 mb-3">
-                          <label for="validationDefault02">Last name</label>
-                          <input type="text" class="form-control" id="validationDefault02"  required>
-                        </div>
-                    </div>
+                <div class="form-group"> 
+                    <label for="validationDefault01">Name</label>
+                    <input type="text" name="entry.1715425712" class="form-control" id="validationDefault01"  required placeholder="お名前">
+                </div>
                 <div class="form-group">
                     <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"></textarea>
+                    <textarea class="form-control" name="entry.1435276640" id="exampleFormControlTextarea1" rows="4"></textarea>
                 </div>
+                <script type="text/javascript">var submitted = false;</script>
+                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks-page';}"></iframe>
             </form>
             <div class="col-12 text-center">
                 <button type="button" class="btn btn-outline-dark bg-light">送　信</button>
             </div>
         </div>
     </section>
+
+    
 
     <footer>
         <p class="text-center">&copy; 2020 <span>TAIKI's Portforio Site</span></p>
