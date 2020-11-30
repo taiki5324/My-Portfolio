@@ -237,58 +237,15 @@
                     下記のフォームに問い合わせ内容をご入力頂くほか<br>TwitterのDMでも承ります　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a>
                 </p>
             </div>
-            <form data-fadeIn action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeIQE1ridFWdxQUJOOTJc1z2DcyFfyIbg1APRbZpayPwRNdJA/formResponse" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-                <div class="form-group">
-                    <label for="exampleFormControlInput1">E-Mail</label>
-                    <input type="email" name="entry.382355300" class="form-control" id="exampleFormControlInput1" value="" placeholder="example@___.com">
-                </div>
-                <div class="form-group"> 
-                    <label for="validationDefault01">Name</label>
-                    <input type="text" name="entry.1715425712" class="form-control" id="validationDefault01" value="" required="" placeholder="お名前">
-                </div>
-                <div class="form-group">
-                    <label for="exampleFormControlTextarea1">お問い合わせ内容</label>
-                    <textarea class="form-control" name="entry.1435276640" id="exampleFormControlTextarea1" required="" rows="4"></textarea>
-                </div>
-                <div class="col-12 text-center">
-                    <button type="button" value="Submit" class="btn btn-outline-dark bg-light">送信する</button>
-                </div>
-                <script type="text/javascript">
-                    // Form Validator
-                    $(document).ready(function () {
-                        $("#form").validate({
-                            rules: {
-                                "entry.382355300": {
-                                    required: true
-                                },
-                                "entry.1715425712": {
-                                    required: true
-                                },
-                                "entry.1435276640": {
-                                    required: true,
-                                    email: true
-                                }
-                            },
-                            messages: {
-                                "entry.382355300": {
-                                    required: "必須項目です"
-                                },
-                                "entry.1715425712": {
-                                    required: "必須項目です"
-                                },
-                                "entry.1435276640": {
-                                    required: "必須項目です",
-                                    email: "必須項目です"
-                                }
-                            },
-                            submitHandler: function (form) { // for demo
-                                form.submit();
-                            }
-                        });
-                    });
-                </script>                
-                <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='thanks-page.html';}"></iframe>
-            </form>
+            <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeIQE1ridFWdxQUJOOTJc1z2DcyFfyIbg1APRbZpayPwRNdJA/formResponse" class="col-12 text-center">
+                <label for="email">E-Mail</label>
+                <input id="email" type="text" name="entry.382355300" placeholder="example@mail.co.jp">
+                <label for="name">Name</label>
+                <input type="text" name="entry.1715425712" placeholder="例 お名前" value="">
+                <label for="msg">お問い合わせ内容</label>
+                <textarea id="msg" name="entry.1435276640" placeholder="お気軽にお問い合わせください。"></textarea>
+                <button type="submit" name="button" value="送信"></button>
+              </form>
         </div>
     </section>
 

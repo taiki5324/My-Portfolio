@@ -174,10 +174,14 @@ a, a:link, a:visited, a:hover, a:active  {
     background-color: black;
     color: whitesmoke;
 }
-.contact  form{
+.contact-form {
     width: 80%;
     margin: 0 auto;
-    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input {
+    margin-bottom: 20px;
 }
 .btn {
     width: 30%;
