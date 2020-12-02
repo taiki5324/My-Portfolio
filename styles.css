@@ -173,6 +173,7 @@ a, a:link, a:visited, a:hover, a:active  {
     margin-top: 30px;
     background-color: black;
     color: whitesmoke;
+    height: 700px;
 }
 .contact-form {
     width: 80%;
@@ -183,9 +184,15 @@ a, a:link, a:visited, a:hover, a:active  {
 .contact-form input {
     margin-bottom: 20px;
 }
-.btn {
-    width: 30%;
-    margin-top: 20px;
+.btn-submit {
+    width: 20%;
+    margin: 40px auto 0;
+    color: whitesmoke;
+    background-color: gray;
+    border-radius: 8px;
+}
+.btn-submit:hover {
+    opacity: .8;
 }
 
 footer {
