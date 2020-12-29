@@ -26,6 +26,7 @@ a, a:link, a:visited, a:hover, a:active  {
     font-family: myfont;
     font-size: 4rem;
     color: whitesmoke;
+    letter-spacing: .2rem
 }
 .top-main h1::after{
     content: "";
@@ -74,11 +75,11 @@ a, a:link, a:visited, a:hover, a:active  {
     background-color: black;
     color: whitesmoke;
 }
-.btn-twitter:hover {
-    opacity: 0.6;
-}
 .fab {
     color: whitesmoke;
+}
+.fa-twitter-square:hover {
+    color:  #1da1f2;
 }
 .border {
     width: 70%;
@@ -122,6 +123,7 @@ a, a:link, a:visited, a:hover, a:active  {
     padding: 20px 0;
     font-family: myfont;
     font-size: 3rem;
+    letter-spacing: .2rem;
 }
 .ttx::after{
     content: "";
@@ -167,7 +169,6 @@ a, a:link, a:visited, a:hover, a:active  {
 .carousel-caption {
     background: rgba(0,0,0,0.2);
 }
-
 .contact {
     padding-bottom: 30px;
     margin-top: 30px;
@@ -194,6 +195,24 @@ a, a:link, a:visited, a:hover, a:active  {
 .btn-submit:hover {
     opacity: .8;
 }
+.thanks {
+    width: 100%;
+    text-align: center;
+    margin-top: 100px;
+    line-height: 40px;
+}
+.thanks h1::after {
+    content: "";
+    display: block;
+    width: 100px;
+    height: 8px;
+    background-color: #59b9c6;
+    margin: 5px auto 0;
+}
+.thanks p {
+    margin-top: 40px;
+}
+
 
 footer {
     border-top: solid 2px whitesmoke;

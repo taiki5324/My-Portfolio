@@ -63,12 +63,12 @@
             <div class="row" data-fadeIn>
                 <div class="col-md-8 about-text">
                     <h3>TAIKI HAYASHI　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a></h3><hr class="border">
-                    <p>WebCreator / WebDesign
+                    <p>WebDesign / Coder
                         北海道函館市出身<br>
                         東京都在住<br>
                         31歳<br>
                         会社員として働きながらWeb制作の活動をしています<br>
-                        クライアントの目的を達成する為のお手伝いをさせて頂きます
+                        集客UP､コンバージョン率を向上させるWebサイト作りを心掛けています
                         </p>
                     <h4>使用ツール  -Development Environment</h4><hr class="border">
                     <ul class="list_tool">
@@ -99,9 +99,9 @@
                 <div class="col-md-6">
                 </div>
                 <div class="col-md-6 service-description">
-                    <h3>Web制作</h3>
-                    <hr color="black">
-                    <p class="txt-subtitle">ホームページ(HP)､ランディングページ(LP)制作</p>
+                    <h3>Webサイト制作</h3>
+                    <hr color="#59b9c6">
+                    <p class="txt-subtitle">ホームページ(HP､ランディングページ(LP)制作</p>
                     <p>
                         ･商品説明、採用などの複数ページで構成されるHPの作成<br>
                         ･ネット広告などに掲載する１ページで構成されるLPの作成<br>
@@ -110,7 +110,7 @@
                 </div>
                 <div class="col-md-6 service-description">
                     <h3>コーディング作業</h3>
-                    <hr color="black">
+                    <hr color="#59b9c6">
                     <p class="txt-subtitle">デザインデータを元にしたコーディング作業</p>
                     <p>
                        ･ Adobe XD等のデザインデータを元にコーディング作業を行います<br>
@@ -122,10 +122,11 @@
                 <div class="col-md-6">
                 </div>
                 <div class="col-md-6 service-description">
-                    <h3>SEO</h3>
-                    <hr color="black">
+                    <h3>SEO施策</h3>
+                    <hr color="#59b9c6">
+                    <p>Google検索で上位表示されやすいようにWebページを作成します</p>
                     <p>
-                        ･Google検索で上位にランクされやすいようにWebページを作成します<br>
+                        ･Googleに正しくインデックスされるようにWebページを作成します<br>
                         ･Google検索エンジンに最適に認識されるようSEO内部対策を施します
                     </p>
                 </div>
@@ -237,7 +238,7 @@
                     下記のフォームに問い合わせ内容をご入力頂くほか<br>TwitterのDMでも承ります　<a href="https://twitter.com/TAIKIFX1" class="btn-twitter" target="blank"><i class="fab fa-twitter-square"></i></a>
                 </p>
             </div>
-            <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeIQE1ridFWdxQUJOOTJc1z2DcyFfyIbg1APRbZpayPwRNdJA/formResponse" class="col-12 text-center">
+            <form class="contact-form" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeIQE1ridFWdxQUJOOTJc1z2DcyFfyIbg1APRbZpayPwRNdJA/formResponse"  class="col-12 text-center" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
                 <label for="email">E-Mail</label>
                 <input id="email" type="text" name="entry.382355300" placeholder="example@mail.co.jp">
                 <label for="name">Name</label>
@@ -245,7 +246,9 @@
                 <label for="msg">お問い合わせ内容</label>
                 <textarea id="msg" name="entry.1435276640" placeholder="お気軽にお問い合わせください。"></textarea>
                 <button class="btn-submit" type="submit" name="button" value="送信">送 信</button>
-              </form>
+            </form>
+            <script type="text/javascript">var submitted = false;</script>
+            <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted){window.location='tahanks-page.html';}"></iframe>
         </div>
     </section>
 
