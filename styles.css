@@ -235,6 +235,9 @@ footer {
     .top-right-1, .top-right-2 {
         display: none;
     }
+    .navbar {
+        background: rgba(248, 249, 250, 1);
+    }
     .items-inner {
         margin-top: 20px;
         box-shadow: none;
